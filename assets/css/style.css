@@ -605,6 +605,7 @@ a {
     display: grid;
     gap: 1rem;
     width: 100%;
+    grid-template-columns: repeat(1, 1fr); /* Inicialmente, 1 skill por linha */
 }
 
 .box-skills {
@@ -614,13 +615,13 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 450px;
+    height: 300px;
     padding: 2rem;
     gap: 1.5rem;
 }
 
 .box-skills i {
-    font-size: 4rem;
+    font-size: 2rem;
     color: var(--color-white);
 }
 
@@ -637,15 +638,16 @@ a {
 
 @media (min-width: 600px) {
     .conteudo-skills {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr); /* 2 skills lado a lado em telas médias */
     }
 }
 
 @media (min-width: 900px) {
     .conteudo-skills {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(4, 1fr); /* 4 skills lado a lado em telas grandes */
     }
 }
+
 
 /*************** SERVIÇOS *****/
 .servicos {
@@ -853,7 +855,7 @@ a {
 .headline-portfolio .descricao {
     width: 50%;
     font-size: 2rem;
-    text-align: right;
+    text-align:right;
     line-height: 1.4;
     letter-spacing: 1.5px;
 }
