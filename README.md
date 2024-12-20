@@ -50,6 +50,3 @@ Busco sempre criar soluções eficientes e otimizadas, com ênfase na experiênc
 
 ## 📜 Licença
 Este projeto está licenciado sob a **MIT License** - veja o arquivo LICENSE para mais detalhes.
-```
-
-Você pode substituir os links e o e-mail com os detalhes corretos. Esse formato está pronto para ser utilizado em um arquivo Markdown.
