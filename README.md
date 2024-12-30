@@ -50,3 +50,5 @@ Busco sempre criar soluções eficientes e otimizadas, com ênfase na experiênc
 
 ## 📜 Licença
 Este projeto está licenciado sob a **MIT License** - veja o arquivo LICENSE para mais detalhes.
+
+OBS: este projeto ainda está sendo finalizado.
